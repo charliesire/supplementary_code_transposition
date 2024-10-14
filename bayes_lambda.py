@@ -101,7 +101,7 @@ def MCMC_lambda(index_calib, model_error, scale, alpha_map, idx_loo, tune_size, 
                     sample = True, 
                     minimum = 0,
                     maximum = 1, 
-                    prior_mu=alpha_map[index_lambda_q[ii]],
+                    prior_mu=alpha_map[ii],
                     prior_sigma = scale
                     ) #truncated gaussian prior
         else:
