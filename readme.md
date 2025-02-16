@@ -1,4 +1,4 @@
-The repository contains all the implemented codes related to the article "Bayesian Calibration in a multi-output transposition context". 
+The repository contains all the implemented codes related to the article "Bayesian Calibration for prediction in a multi-output transposition context". 
 
 - investigate_alphamap.py is the implementation of the algorithm to investigate $\boldsymbol{\alpha}_{\text{MAP}}.$
 - bayes_lambda.py is dedicated to the MCMC sampling of $\boldsymbol{\lambda}$, for the methods No error, Uniform_error and Hierarchical MAP. 
