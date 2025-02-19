@@ -60,7 +60,7 @@ def plot_mean_std(index_calib, results_measures, true_values, sigma, pre_path, n
             ax.errorbar(x + 5*incr, (Ysimu_embed.iloc[:, i-1]-list_values[0][f"Y{i}"])/list_values[0][f"Y{i}"], yerr=Ystd_embed.iloc[:, i-1]/list_values[0][f"Y{i}"], fmt='o', color='orange', label="Embedded \ndiscrepancy",elinewidth=elinewidth,markersize = markersize) #plot embedded discrepancy
         ax.axhline(y=0, color='gray', linestyle='--', linewidth=0.8)
 
-        ax.set_title(f"Prediction of {variable_names[i-1]} from measures of {variable_names[index_calib-1]}", fontsize=42)
+        ax.set_title(f"Prediction of {variable_names[i-1]} from measurements of {variable_names[index_calib-1]}", fontsize=42)
         
         if i == len(axes): #x ticks on the last subplots
             ax.set_xticks(x)
