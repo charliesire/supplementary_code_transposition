@@ -1,4 +1,4 @@
-The repository contains all the implemented codes related to the article "Bayesian Calibration in a multi-output transposition context". 
+The repository contains all the implemented codes related to the article "Bayesian Calibration for prediction in a multi-output transposition context". 
 
 - investigate_alphamap.py is the implementation of the algorithm to investigate $\boldsymbol{\alpha}_{\text{MAP}}.$
 - bayes_lambda.py is dedicated to the MCMC sampling of $\boldsymbol{\lambda}$, for the methods No error, Uniform_error and Hierarchical MAP. 
@@ -11,4 +11,4 @@ The repository contains all the implemented codes related to the article "Bayesi
 - gp_simus.py is dedicated to the surrogate model.
 - plot_summary.ipynb uses the functions of utils_plot_errors.ipynb to plot the different resutls.
 
-The repositories starting with "seedx_" are the results of the different methods, each one is associated with a different design $\mathbb{X}$. The repositories "measurement_points" and "surrogate_models" provides the designs and the the surrogate models built for each design, respectively.
+The repositories starting with "design_" are the results of the different methods, each one is associated with a different design $\mathbb{X}$. The repositories "measurement_points" and "surrogate_models" provides the designs and the the surrogate models built for each design, respectively. "design_1" presents the results of the core of the manuscript. 
