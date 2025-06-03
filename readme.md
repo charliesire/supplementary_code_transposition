@@ -12,3 +12,5 @@ The repository contains all the implemented codes related to the article "Bayesi
 - plot_summary.ipynb uses the functions of utils_plot_errors.ipynb to plot the different resutls.
 
 The repositories starting with "design_" are the results of the different methods, each one is associated with a different design $\mathbb{X}$. The repositories "measurement_points" and "surrogate_models" provides the designs and the the surrogate models built for each design, respectively. "design_1" presents the results of the core of the manuscript. 
+
+The file "supplementary_material.pdf" provides a proof of the consistency of the estimators introduced in the manuscript.
